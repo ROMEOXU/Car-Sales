@@ -13,9 +13,9 @@ const AddedFeature = props => {
 
 const mapStateToProps = state =>{
   return {
-    additionalPrice:state.additionalPrice,
-    car:state.car,
-    additionalFeatures:state.additionalFeatures
+    // additionalPrice:state.additionalPrice,
+    // car:state.car,
+    // additionalFeatures:state.additionalFeatures
   }
 }
 export default connect(mapStateToProps,{deleteFeatures})(AddedFeature);
